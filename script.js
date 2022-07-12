@@ -13,6 +13,6 @@ function removePopup(e){
 
 btn.addEventListener("click", show)
 function show(e){
-    //popup.classList.add("pop")
+    popup.classList.add("pop")
     popup.classList.remove("remove")
 }
